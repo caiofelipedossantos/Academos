@@ -1,5 +1,5 @@
 <?php
-class paginaController extends controller{
+class paginaController extends Controller{
     public function _construct(){
         parent::__construct();
     }

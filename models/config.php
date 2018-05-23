@@ -1,5 +1,5 @@
 <?php
-class Config extends model{
+class Config extends Model{
 
     public function getConfig(){
 

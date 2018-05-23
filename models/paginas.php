@@ -1,6 +1,6 @@
 <?php
 
-class Paginas extends model{
+class Paginas extends Model{
     public function getPagina($url){
         $dados = array();
 
