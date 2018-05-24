@@ -12,10 +12,10 @@ if(ENVIRONMENT == 'development') {
 	$config['dbpass'] = '';
 } else {
 	define("BASE_URL", "http://caio.w3connect.com.br/Academos/");
-	$config['dbname'] = 'caiow3co_academos';
+	$config['dbname'] = 'caiow3co_';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'caiow3co_root';
-	$config['dbpass'] = '#Caiofelipe1102';
+	$config['dbpass'] = '';
 }
 
 $db = new PDO("mysql:dbname=".$config['dbname'].";host=".$config['host'], $config['dbuser'], $config['dbpass']);
