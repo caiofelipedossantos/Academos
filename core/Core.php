@@ -2,7 +2,6 @@
 class Core {
 
 	public function run() {
-<<<<<<< HEAD
         $url = '/'.(isset($_GET['q'])?$_GET['q']:'');
         //$url = explode("index.php", $_SERVER['PHP_SELF']);
 		//$url = end($url);
@@ -10,28 +9,14 @@ class Core {
 		$params = array();
 		if(!empty($url) && $url != '/') {
 		//if(!empty($url)) {
-=======
-        //$url = '/'.(isset($_GET['q'])?$_GET['q']:'');
-        $url = explode("index.php", $_SERVER['PHP_SELF']);
-		$url = end($url);
-		
-		$params = array();
-		//if(!empty($url) && $url != '/') {
-		if(!empty($url)) {
->>>>>>> 5e3838194be39c9774e27f18bfadd88aceb58724
 			$url = explode('/', $url);
 			array_shift($url);
 
 			$currentController = $url[0].'Controller';
 			array_shift($url);
 
-<<<<<<< HEAD
 			if(isset($url[0]) && $url[0] != '/') {
 			//if(isset($url[0])) {
-=======
-			//if(isset($url[0]) && $url[0] != '/') {
-			if(isset($url[0])) {
->>>>>>> 5e3838194be39c9774e27f18bfadd88aceb58724
 				$currentAction = $url[0];
 				array_shift($url);
 			} else {
