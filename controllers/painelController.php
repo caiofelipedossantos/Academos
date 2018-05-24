@@ -1,5 +1,5 @@
 <?php
-class painelController extends controller{
+class painelController extends Controller{
     public function _construct(){
         parent::__construct();
     }

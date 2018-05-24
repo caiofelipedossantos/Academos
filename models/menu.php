@@ -1,6 +1,6 @@
 <?php
 
-class Menu extends model{
+class Menu extends Model{
 
     public function getMenu(){
         $dados = array();
